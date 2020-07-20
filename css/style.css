@@ -1,0 +1,438 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:500,700|Open+Sans");
+* {
+  font-family: "Open Sans";
+  color: #546e7a;
+  font-size: 13px;
+  font-weight: 400;
+}
+html {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+.wrapper {
+  overflow-x: hidden;
+}
+header {
+  padding: 0;
+}
+.navbar a {
+  color: black;
+}
+.navbar-toggler-icon {
+  background: white;
+}
+.navbar li {
+  align-self: right;
+}
+.navbar a:hover {
+  color: black;
+  text-decoration: underline blueviolet;
+}
+#slider {
+  background: #eee;
+  padding: 0;
+}
+
+.carousel-inner img {
+  width: 100%;
+  height: 400px;
+}
+#services h2 {
+  margin-top: 50px;
+  margin-bottom: 80px;
+  padding: 30px;
+}
+.box {
+  padding: 20px;
+  border-radius: 4px;
+  transition: 0.2s;
+  margin-bottom: 50px;
+  text-align: center;
+  border: 1px solid transparent;
+  margin-top: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.box:hover {
+  margin-top: -10px;
+  border: 1px solid #ff69b4;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 5px 2px;
+  transition: 0.5s;
+}
+#get-started {
+  background: #eee;
+  padding: 60px;
+}
+#purchase {
+  background: #ff69b4;
+  /* padding: 10px 35px; */
+  color: #fff;
+  border: 1px solid;
+  padding: 10px 5px;
+  border-radius: 20px;
+}
+#purchase:hover {
+  opacity: 0.7;
+}
+#choose-us h2 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.box-1 {
+  padding: 20px 0;
+  padding: 10px;
+  border: 1px solid #ff69b4;
+  border-radius: 4px;
+  transition: 0.2s;
+  margin-bottom: 50px;
+}
+.box-1:hover {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 7px 7px 2px;
+  transition: 0.5s;
+}
+#video {
+  background-image: url(../images/aperture-black-blur-camera-274973.jpg);
+  padding: 150px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.text h3 {
+  margin-top: 60px;
+  color: #fff;
+}
+.text p {
+  color: #fff;
+}
+#our-work {
+  background: #eee;
+  padding: 60px;
+}
+#our-work button {
+  margin-top: 20px;
+  padding: 10px 30px 10px 30px;
+  margin-left: 5px;
+  background: #ff69b4;
+  color: #fff;
+  border: 1px solid transparent;
+  border-radius: 25px;
+}
+#our-work button:hover {
+  opacity: 0.7;
+}
+#our-work img {
+  padding: 10px;
+  margin-top: 20px;
+  width: 100%;
+  /* height: 100%; */
+}
+#our-work img:hover {
+  opacity: 0.8;
+}
+
+#pricing {
+  margin-top: 50px;
+}
+#pricing li {
+  padding: 10px;
+}
+#pricing .card {
+  margin-top: 40px;
+  transition: 0.2s;
+}
+#pricing .card:hover {
+  border: 1px solid #ff69b4;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 20px 10px;
+  transition: 0.5s;
+}
+#pricing li:nth-child(odd) {
+  background: #eee;
+}
+#pricing h3 {
+  padding: 25px;
+}
+
+#pricing h4 {
+  padding: 5px;
+}
+#pricing button {
+  margin-top: 20px;
+  padding: 10px 30px 10px 30px;
+  margin-left: 5px;
+  background: #ff69b4;
+  color: #fff;
+  border: 1px solid transparent;
+  border-radius: 25px;
+}
+#featured {
+  margin-top: 50px;
+  padding: 70px;
+  background: #ff69b4;
+}
+#featured .card {
+  background: #ff69b4;
+  padding: 20px;
+  border: 1px solid white;
+  border-radius: 20px;
+  margin-top: 15px;
+}
+#featured .col {
+  padding: 10px;
+}
+#featured h2 {
+  color: #fff;
+}
+#featured p {
+  color: #fff;
+}
+#featured .card:hover {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 15px 15px 5px;
+  transition: 0.5s;
+}
+
+#subscribe {
+  background-image: url(../images/white-ceramic-teapot-on-white-ceramic-saucer-3708525.jpg);
+  /* padding: 50px; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+#subscribe form {
+  background: #fff;
+  padding: 40px;
+  margin-top: 50px;
+}
+#subscribe input {
+  background: #eee;
+  border-radius: 30px;
+  /* padding: 22px; */
+  margin-top: 25px;
+  width: 100%;
+}
+#subscribe button {
+  margin-top: 25px;
+  /* padding: 15px 30px 15px 30px; */
+
+  background: #ff69b4;
+  color: #fff;
+  border: 1px solid transparent;
+  border-radius: 25px;
+  width: 100%;
+}
+
+#subscribe .flex-box {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  padding: 35px;
+  margin-bottom: 10px;
+}
+.flex-box p {
+  color: #546e7a;
+}
+.flex-box h4 {
+  color: #546e7a;
+}
+#our-team {
+  margin-top: 50px;
+  padding: 30px;
+}
+#our-team .card {
+  margin-top: 20px;
+  margin-bottom: 50px;
+  width: 100%;
+}
+#our-team img {
+  width: 100%;
+  background-position: cover;
+}
+#contact {
+  margin-top: 50px;
+}
+#contact h2 {
+  padding: 5px;
+  margin-bottom: 5px;
+}
+#contact input {
+  padding: 5px;
+  margin: 5px;
+  border-radius: 30px;
+  background: #eee;
+}
+#contact textarea {
+  padding: 5px;
+  margin: 5px;
+  min-width: 100%;
+  background: #eee;
+}
+#contact i {
+  border-radius: 120px;
+  background: #ff69b4;
+  padding: 12px;
+  color: #fff;
+  text-align: center;
+  margin-right: 100px;
+}
+#contact button {
+  margin: 5px;
+
+  width: 100%;
+  background: #ff69b4;
+  color: #fff;
+  border: 1px solid transparent;
+  border-radius: 25px;
+}
+
+@media (min-width: 800px) {
+  #subscribe {
+    background-image: url(../images/white-ceramic-teapot-on-white-ceramic-saucer-3708525.jpg);
+    /* padding: 150px; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    padding: 150px;
+  }
+  #subscribe form {
+    background: #fff;
+    padding: 40px;
+    justify-content: center;
+  }
+  #subscribe input {
+    background: #eee;
+    border-radius: 30px;
+    padding: 22px;
+    margin-top: 25px;
+    width: 100%;
+  }
+  #subscribe button {
+    margin-top: 25px;
+    padding: 15px 30px 15px 30px;
+
+    background: #ff69b4;
+    color: #fff;
+    border: 1px solid transparent;
+    border-radius: 25px;
+    width: 100%;
+  }
+
+  #subscribe .flex-box {
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    padding: 35px;
+    margin: 20px;
+  }
+  .flex-box p {
+    color: #546e7a;
+  }
+  .flex-box h4 {
+    color: #546e7a;
+  }
+  .carousel-inner img {
+    width: 100%;
+    height: 600px;
+  }
+  #purchase {
+    background: #ff69b4;
+    padding: 10px 35px;
+    color: #fff;
+    border: 1px solid;
+    border-radius: 30px;
+  }
+  #purchase:hover {
+    opacity: 0.7;
+  }
+  #featured .card {
+    background: #ff69b4;
+    padding: 45px;
+    border: 1px solid white;
+    border-radius: 20px;
+  }
+  #get-started {
+    background: #eee;
+    padding: 100px;
+  }
+  .box {
+    border-radius: 4px;
+    transition: 0.2s;
+    margin-bottom: 50px;
+    text-align: center;
+    border: 1px solid transparent;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .box:hover {
+    margin-top: -10px;
+    border: 1px solid #ff69b4;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 5px 2px;
+    transition: 0.5s;
+  }
+  #our-work img {
+    padding: 15px;
+    margin-top: 20px;
+    width: 100%;
+    /* height: 100%; */
+  }
+  #our-work {
+    background: #eee;
+    padding: 100px;
+  }
+  #our-team {
+    margin-top: 50px;
+    padding: 80px;
+  }
+  #our-team .card {
+    margin-top: 30px;
+    margin-bottom: 50px;
+  }
+  #our-team .card:hover {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 5px 2px;
+    transition: 0.5s;
+  }
+  #our-team img {
+    width: 100%;
+    background-position: cover;
+  }
+  #contact {
+    margin-top: 50px;
+  }
+  #contact h2 {
+    padding: 30px;
+    margin-bottom: 10px;
+  }
+  #contact input {
+    padding: 25px;
+    margin: 15px;
+    border-radius: 30px;
+    background: #eee;
+  }
+  #contact textarea {
+    padding: 15px;
+    margin: 15px;
+    min-width: 100%;
+    background: #eee;
+  }
+  #contact .col-12 {
+    margin-bottom: 45px;
+  }
+  #contact i {
+    border-radius: 120px;
+    background: #ff69b4;
+    padding: 12px;
+    color: #fff;
+    text-align: center;
+    margin-right: 100px;
+  }
+  #contact button {
+    margin: 15px;
+    padding: 10px 20px 10px 20px;
+
+    background: #ff69b4;
+    color: #fff;
+    border: 1px solid transparent;
+    border-radius: 25px;
+  }
+}
